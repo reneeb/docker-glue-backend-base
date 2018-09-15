@@ -13,4 +13,4 @@ RUN apk update && \
 
 RUN apk add shadow
 
-RUN groupadd mojolicious && useradd -m -g mojolicious mojolicious
+RUN groupadd mojolicious && useradd -m -s /bin/ash -g mojolicious mojolicious
